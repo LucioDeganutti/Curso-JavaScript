@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hotel Miramar</title>
+</head>
+
+<body>
+    <header>
+        <h1>Hotel Miramar</h1>
+    </header>
+    <form name="registro">
+        <input type="text" name="personas" id="personas" placeholder="Cantidad de personas">
+        <input type="text" name="noches" id="noches" placeholder="Cantidad de noches">
+        <input type="button" name="btn1" value="Enviar" onclick="obtenerdatos()">
+    </form>
+    <hr />
+    <h2>Usted reservo:</h2>
+    <h2><span id="cantPers"></span> persona/s por <span id="cantNoc"></span> noches</h2>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
